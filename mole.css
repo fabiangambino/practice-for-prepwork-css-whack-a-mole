@@ -1,6 +1,21 @@
 /* Your code here */
+.wsg {
+  position: relative;
+  width: 640px;
+  height: 482px;
+}
 
+.wsg__mole-head {
+  position: absolute;
+  width: 376px;
+  height: 356px;
+}
 
+.wsg__mole-hill {
+  position: absolute;
+  width: 640px;
+  height: 220px;
+}
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 /* .sb {
