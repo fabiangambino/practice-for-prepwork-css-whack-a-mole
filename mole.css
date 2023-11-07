@@ -1,4 +1,7 @@
 /* Your code here */
+
+/*must convert div from block to inline-block to display elements side by side*/
+
 .wsg {
   position: relative;
   width: 640px;
@@ -9,12 +12,14 @@
   position: absolute;
   width: 376px;
   height: 356px;
+  left: 109px;
 }
 
 .wsg__mole-hill {
   position: absolute;
   width: 640px;
   height: 220px;
+  top: 262px;
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
