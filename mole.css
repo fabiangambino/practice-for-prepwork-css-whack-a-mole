@@ -1,25 +1,32 @@
 /* Your code here */
 
-/*must convert div from block to inline-block to display elements side by side*/
-
-.wsg {
+.wgs {
+  display: inline-block;
   position: relative;
   width: 640px;
   height: 482px;
 }
 
-.wsg__mole-head {
+.wgs__mole-head {
   position: absolute;
   width: 376px;
   height: 356px;
   left: 109px;
 }
 
-.wsg__mole-hill {
+.wgs__mole-hill {
   position: absolute;
   width: 640px;
   height: 220px;
   top: 262px;
+}
+
+.wgs__mole-head--hidden {
+  position: absolute;
+  width: 376px;
+  height: 356px;
+  left: 109px;
+  margin-top: 482px;
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
