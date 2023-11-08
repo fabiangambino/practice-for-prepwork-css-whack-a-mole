@@ -3,36 +3,38 @@
 .wgs {
   display: inline-block;
   position: relative;
-  width: 640px;
-  height: 482px;
+  width: 320px;
+  height: 241px;
   overflow: hidden;
 }
 
 .wgs__mole-head {
   position: absolute;
-  width: 376px;
-  height: 356px;
-  left: 109px;
+  width: 188px;
+  height: 178px;
+  left: 55px;
   transition: margin-top 0.25s;
 }
 
 .wgs__mole-hill {
   position: absolute;
-  width: 640px;
-  height: 220px;
-  top: 262px;
+  width: 320px;
+  height: 110px;
+  top: 131px;
 }
 
 .wgs__mole-head--hidden {
-  position: absolute;
-  width: 376px;
-  height: 356px;
-  left: 109px;
-  margin-top: 482px;
+  margin-top: 241px;
+}
+
+.pf {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+ .sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -41,17 +43,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+ .sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+}
 
-/* .sb__score-holder {
+ .sb__score-holder {
   flex: 1 0 0;
-} */
+}
 
-/* .sb__game-over--hidden {
+ .sb__game-over--hidden {
   display: none;
-} */
+}
