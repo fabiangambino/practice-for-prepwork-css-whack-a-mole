@@ -27,6 +27,10 @@
   margin-top: 241px;
 }
 
+.wgs__mole-head--whacked {
+  background-color: red;
+}
+
 .pf {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
